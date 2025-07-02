@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "table_name":"dummy",
+      "source_format":"eventhub",
+      "eventhub_namespace":"sqlservercdc",
+      "eventhub":"cdc.adventureworkslt2022.saleslt.dummy",
+      "options": {}
+    },
+    {
+      "table_name":"dummy2",
+      "source_format":"eventhub",
+      "eventhub_namespace":"sqlservercdc",
+      "eventhub":"cdc.adventureworkslt2022.saleslt.dummy2",
+      "options": {}
+    },
+    {
+      "table_name":"product",
+      "source_format":"eventhub",
+      "eventhub_namespace":"sqlservercdc",
+      "eventhub":"cdc.adventureworkslt2022.saleslt.product",
+      "options": {}
+    },
+    {
+      "table_name":"product",
+      "source_format":"eventhub",
+      "eventhub_namespace":"sqlservercdc",
+      "eventhub":"cdc.adventureworkslt2022.saleslt.salesorderdetail",
+      "options": {}
+    },
+    {
+      "table_name":"salesorderheader",
+      "source_format":"eventhub",
+      "eventhub_namespace":"sqlservercdc",
+      "eventhub":"cdc.adventureworkslt2022.saleslt.salesorderheader",
+      "options": {}
+    },
+    {
+      "table_name":"customer",
+      "source_format":"eventhub",
+      "eventhub_namespace":"sqlservercdc",
+      "eventhub":"cdc.adventureworkslt2022.saleslt.customer",
+      "options": {}
+    }
+  ]
+}

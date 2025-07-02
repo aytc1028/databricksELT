@@ -22,7 +22,7 @@
       "options": {}
     },
     {
-      "table_name":"product",
+      "table_name":"salesorderdetail",
       "source_format":"eventhub",
       "eventhub_namespace":"sqlservercdc",
       "eventhub":"cdc.adventureworkslt2022.saleslt.salesorderdetail",
